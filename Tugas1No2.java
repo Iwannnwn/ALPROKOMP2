@@ -16,7 +16,7 @@ public class Tugas1No2 {
         for (int i = x; i <= y; i++){
             int n = Kabisat(i)+ Biasa(i);
             jumlahhari += n;
-            System.out.println(n);
+            //System.out.println(n);
         }
         System.out.println("Jumlah Hari dari tahun " + x + " sampai tahun " + y + " adalah " + jumlahhari +" hari");
     }
